@@ -1,0 +1,7 @@
+version: "3"
+
+services:
+  transfermarkt-scrapper:
+    build: .
+    volumes:
+      - .:/user/app
